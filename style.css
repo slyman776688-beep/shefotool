@@ -74,6 +74,11 @@ body.dark-mode {
 }
 
 /* Base Reset */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -2002,6 +2007,10 @@ body.rtl-mode .footer-col h4::after {
         font-size: 34px;
     }
     
+    .hero-features-bar {
+        display: none;
+    }
+    
     .about-text-content h2 {
         font-size: 28px;
     }
@@ -2012,12 +2021,16 @@ body.rtl-mode .footer-col h4::after {
     
     .experience-badge {
         padding: 15px 20px;
-        bottom: -10px;
-        left: -10px;
+        bottom: 10px;
+        left: 10px;
     }
     
     .experience-badge .num {
         font-size: 30px;
+    }
+    
+    .estimator-box {
+        padding: 20px;
     }
     
     .gallery-grid {

@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title lang="ar">مؤسسة خيام اليمامة | تأجير خيام وتجهيز فعاليات ومؤتمرات بالدمام</title>
+    <title lang="en">Al Yamama Tents | Event Tent Rental & Management Dammam</title>
+    
+    <meta name="description" lang="ar" content="مؤسسة خيام اليمامة بالدمام - لتجهيز الحفلات والمناسبات والمؤتمرات وتأجير الخيام الفاخرة، التكييف، الأثاث، المولدات، أنظمة الصوت والإضاءة وإدارة الحشود منذ 2013.">
+    <meta name="description" lang="en" content="Al Yamama Tents Foundation in Dammam - Premium event tent rentals, air conditioning, furniture, generators, sound & light systems, and crowd management since 2013.">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="مؤسسة خيام اليمامة | Al Yamama Tents">
+    <meta property="og:description" content="تجهيز وتأجير خيام الفعاليات والمؤتمرات والمناسبات في المملكة العربية السعودية - الدمام.">
+    <meta property="og:image" content="assets/WhatsApp-Image-2025-08-31-at-12.12.17-AM-1.jpeg">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="https://alyamamatents.com/wp-content/uploads/2023/09/fav-logo.png" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="rtl-mode">
+
+    <!-- Preloader Screen -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <svg class="tent-svg-anim" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                <!-- Luxurious Golden Tent Outline -->
+                <path d="M50 15 L85 75 L15 75 Z" fill="none" stroke="#D4AF37" stroke-width="3" stroke-linejoin="round" />
+                <path d="M50 15 L50 75" fill="none" stroke="#C5A880" stroke-width="2" stroke-dasharray="2,2" />
+                <path d="M50 45 L15 75 M50 45 L85 75" fill="none" stroke="#D4AF37" stroke-width="1.5" />
+                <path d="M35 75 L50 55 L65 75" fill="none" stroke="#D4AF37" stroke-width="2" stroke-linejoin="round" />
+            </svg>
+            <h2 lang="ar" class="gold-text">مؤسسة خيام اليمامة</h2>
+            <h2 lang="en" class="gold-text">Al Yamama Tents</h2>
+            <div class="load-bar">
+                <div class="load-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header / Sticky Navigation -->
+    <header id="main-header">
+        <div class="header-container">
+            <!-- Brand Logo -->
+            <a href="#" class="logo">
+                <span class="gold-accent">▲</span>
+                <span lang="ar">خيام اليمامة</span>
+                <span lang="en">Al Yamama</span>
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-toggle" aria-label="Toggle menu" id="mobile-toggle-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav id="nav-menu">
+                <ul>
+                    <li><a href="#hero" class="active"><span lang="ar">الرئيسية</span><span lang="en">Home</span></a></li>
+                    <li><a href="#about"><span lang="ar">من نحن</span><span lang="en">About</span></a></li>
+                    <li><a href="#services"><span lang="ar">خدماتنا</span><span lang="en">Services</span></a></li>
+                    <li><a href="#portfolio"><span lang="ar">أعمالنا</span><span lang="en">Portfolio</span></a></li>
+                    <li><a href="#estimator"><span lang="ar">احسب تكلفتك</span><span lang="en">Estimator</span></a></li>
+                    <li><a href="#contact"><span lang="ar">اتصل بنا</span><span lang="en">Contact</span></a></li>
+                </ul>
+                <div class="mobile-actions">
+                    <button class="lang-switch-btn lang-switch-mobile" aria-label="Switch Language">
+                        <span lang="ar">English</span>
+                        <span lang="en">العربية</span>
+                    </button>
+                    <button class="theme-switch-btn theme-switch-mobile" aria-label="Toggle Dark Mode">
+                        <span class="sun-icon">☀️ <span lang="ar">الوضع المضيء</span><span lang="en">Light Mode</span></span>
+                        <span class="moon-icon">🌙 <span lang="ar">الوضع الداكن</span><span lang="en">Dark Mode</span></span>
+                    </button>
+                    <a href="https://api.whatsapp.com/send?phone=966557308666" class="btn btn-header-cta" target="_blank">
+                        <span lang="ar">اتصل بنا</span>
+                        <span lang="en">Call Us</span>
+                    </a>
+                </div>
+            </nav>
+
+            <!-- Actions (Lang switch + CTA) -->
+            <div class="header-actions">
+                <button class="lang-switch-btn" id="lang-switch" aria-label="Switch Language">
+                    <span lang="ar">English</span>
+                    <span lang="en">العربية</span>
+                </button>
+                <button class="theme-switch-btn" id="theme-switch" aria-label="Toggle Dark Mode">
+                    <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                    <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+                <a href="https://api.whatsapp.com/send?phone=966557308666" class="btn btn-header-cta" target="_blank">
+                    <span lang="ar">اتصل بنا</span>
+                    <span lang="en">Call Us</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="badge" lang="ar">منذ عام 2013</span>
+                <span class="badge" lang="en">Since 2013</span>
+                
+                <h1 lang="ar">تجهيز وتأجير خيام <br><span class="gold-text">الفعاليات الفاخرة</span></h1>
+                <h1 lang="en">Premium Event <br><span class="gold-text">Tent Solutions</span></h1>
+                
+                <p lang="ar">مؤسسة خيام اليمامة الرائدة في الدمام والشرقية لتأجير خيام المؤتمرات، الحفلات والمستلزمات بأعلى معايير الجودة والفخامة.</p>
+                <p lang="en">Al Yamama Tents is Dammam's premier provider of professional event tents, exhibition marquees, and comprehensive hospitality setups.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#estimator" class="btn btn-primary">
+                        <span lang="ar">احسب تكلفتك الآن</span>
+                        <span lang="en">Calculate Quote Now</span>
+                    </a>
+                    <a href="#portfolio" class="btn btn-secondary">
+                        <span lang="ar">شاهد أعمالنا</span>
+                        <span lang="en">View Portfolio</span>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Quick Features Bar -->
+            <div class="hero-features-bar">
+                <div class="feature-item">
+                    <div class="feature-icon">🛡️</div>
+                    <div class="feature-text">
+                        <h4 lang="ar">مقاومة للحرائق والرياح</h4>
+                        <h4 lang="en">Wind & Fire Resistant</h4>
+                        <p lang="ar">خيام مطابقة لمعايير السلامة</p>
+                        <p lang="en">Safe certified structures</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">⚡</div>
+                    <div class="feature-text">
+                        <h4 lang="ar">تجهيز متكامل</h4>
+                        <h4 lang="en">Complete Setup</h4>
+                        <p lang="ar">إضاءة، تكييف، صوت وأثاث</p>
+                        <p lang="en">AC, sound, lights, furniture</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">📍</div>
+                    <div class="feature-text">
+                        <h4 lang="ar">تغطية شاملة بالشرقية</h4>
+                        <h4 lang="en">Eastern Province Cover</h4>
+                        <p lang="ar">نصلك أينما كنت بالمنطقة</p>
+                        <p lang="en">Serving Dammam & surrounds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="grid grid-2">
+                <!-- Left: Interactive Video or Image Overlay -->
+                <div class="about-image-wrapper">
+                    <div class="about-image-frame">
+                        <img src="assets/WhatsApp-Image-2025-08-31-at-12.12.17-AM.jpeg" alt="Traditional Arabic Tent" class="about-img">
+                    </div>
+                    <div class="experience-badge">
+                        <span class="num">13+</span>
+                        <span class="txt" lang="ar">سنوات خبرة</span>
+                        <span class="txt" lang="en">Years of Exp</span>
+                    </div>
+                </div>
+                
+                <!-- Right: Text & Stats -->
+                <div class="about-text-content">
+                    <span class="section-subtitle" lang="ar">قصة نجاحنا</span>
+                    <span class="section-subtitle" lang="en">Our Story</span>
+                    
+                    <h2 lang="ar">مؤسسة خيام اليمامة لخدمات الفعاليات المتكاملة</h2>
+                    <h2 lang="en">Al Yamama Tents for Integrated Event Services</h2>
+                    
+                    <p lang="ar">تأسست مؤسسة خيام اليمامة عام 2013 في مدينة الدمام، ونفخر بأن نكون الشريك الموثوق لأكبر الجهات الحكومية والشركات الخاصة والعوائل في تنظيم وتجهيز الفعاليات والمؤتمرات والحفلات والمخيمات البرية.</p>
+                    <p lang="en">Established in 2013 in Dammam, Al Yamama Tents has grown to be a trusted partner for government bodies, corporations, and families, providing premium setups for conferences, festivals, and luxury private gatherings.</p>
+                    
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>500+</h3>
+                            <p lang="ar">فعالية مجهزة</p>
+                            <p lang="en">Events Delivered</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>100%</h3>
+                            <p lang="ar">رضا العملاء</p>
+                            <p lang="en">Client Satisfaction</p>
+                        </div>
+                        <div class="stat-card">
+                            <h3>24/7</h3>
+                            <p lang="ar">دعم فني وتجهيز</p>
+                            <p lang="en">Technical Support</p>
+                        </div>
+                    </div>
+
+                    <div class="bullets-list">
+                        <div class="bullet-item">
+                            <span class="bullet-check">✓</span>
+                            <span lang="ar">خيام أوروبية فاخرة وخيام زجاجية للمعارض الكبرى.</span>
+                            <span lang="en">Luxury European tents & glass structures for big expos.</span>
+                        </div>
+                        <div class="bullet-item">
+                            <span class="bullet-check">✓</span>
+                            <span lang="ar">أنظمة تكييف قوية مصممة لتحمل حرارة الصيف القصوى.</span>
+                            <span lang="en">High-performance cooling systems engineered for summer.</span>
+                        </div>
+                        <div class="bullet-item">
+                            <span class="bullet-check">✓</span>
+                            <span lang="ar">إدارة احترافية للحشود وتنظيم الممرات وتشغيل الفعاليات.</span>
+                            <span lang="en">Professional crowd control, routing, and event operations.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-padding bg-light">
+        <div class="container text-center">
+            <span class="section-subtitle" lang="ar">ماذا نقدم؟</span>
+            <span class="section-subtitle" lang="en">Our Offerings</span>
+            
+            <h2 lang="ar">تجهيزات متكاملة لجميع المناسبات</h2>
+            <h2 lang="en">Complete Event Infrastructure Services</h2>
+            
+            <p class="section-description" lang="ar">نوفر كافة الاحتياجات اللوجستية والفنية لإخراج فعاليتكم بأبهى صورة، من البنية التحتية للخيام وحتى خدمات الضيافة والتكييف.</p>
+            <p class="section-description" lang="en">We supply everything required to build, cool, light, and furnish your event, from massive structural tents to high-end hospitality services.</p>
+            
+            <div class="grid grid-3 cards-container">
+                <!-- Card 1: Tent Rental -->
+                <div class="service-card animate-on-scroll">
+                    <div class="card-icon-wrapper">
+                        <!-- Custom Golden Tent Icon -->
+                        <svg viewBox="0 0 24 24" class="card-icon" fill="currentColor">
+                            <path d="M12 2L2 22h4l6-12 6 12h4L12 2zm0 13l-3 6h6l-3-6z"/>
+                        </svg>
+                    </div>
+                    <h3 lang="ar">تأجير الخيام والسرادقات</h3>
+                    <h3 lang="en">Tent & Marquee Rental</h3>
+                    <p lang="ar">خيام أوروبية بي في سي، خيام زجاجية، قبب كروية، وسرادقات للمناسبات الحكومية والخاصة بمختلف المقاسات.</p>
+                    <p lang="en">European PVC tents, structural glass pavilions, geodesic domes, and wedding marquees customized to any dimension.</p>
+                </div>
+
+                <!-- Card 2: Cooling & AC -->
+                <div class="service-card animate-on-scroll">
+                    <div class="card-icon-wrapper">
+                        <svg viewBox="0 0 24 24" class="card-icon" fill="currentColor">
+                            <path d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm1 17.93V19a1 1 0 01-2 0v-1.07A8 8 0 014.07 13H5a1 1 0 010-2h-.93A8 8 0 0111 4.07V5a1 1 0 012 0v-.93A8 8 0 0119.93 11H19a1 1 0 010 2h.93A8 8 0 0113 19.93zM12 8a4 4 0 104 4 4 4 0 00-4-4z"/>
+                        </svg>
+                    </div>
+                    <h3 lang="ar">أنظمة التكييف والتهوية</h3>
+                    <h3 lang="en">Cooling & Air Conditioning</h3>
+                    <p lang="ar">تأجير مكيفات فريون دولابية وصحراوية قوية للمساحات المفتوحة والخيام لضمان جو منعش وبارد طوال العام.</p>
+                    <p lang="en">High-tonnage package units, spot cooling, and evaporative desert coolers optimized for large tents and outdoor venues.</p>
+                </div>
+
+                <!-- Card 3: Furniture & Hospitality -->
+                <div class="service-card animate-on-scroll">
+                    <div class="card-icon-wrapper">
+                        <svg viewBox="0 0 24 24" class="card-icon" fill="currentColor">
+                            <path d="M4 18v3h3v-3h10v3h3v-3h2v-6c0-2.2-1.8-4-4-4H5c-2.2 0-4 1.8-4 4v6h3zM19 6h-3V3H8v3H5c-1.1 0-2 .9-2 2v2h18V8c0-1.1-.9-2-2-2z"/>
+                        </svg>
+                    </div>
+                    <h3 lang="ar">الأثاث والضيافة والفرش</h3>
+                    <h3 lang="en">Furniture & Hospitality</h3>
+                    <p lang="ar">تأجير كنب ملكي، كراسي نابليون مذهبة، طاولات اجتماعات، سجاد فاخر وجلسات شعبية متكاملة لضيافة عربية أصيلة.</p>
+                    <p lang="en">Royal sofas, golden Napoleon chairs, banquet tables, luxury carpets, and traditional floor seating setups.</p>
+                </div>
+
+                <!-- Card 4: Sound & Lights -->
+                <div class="service-card animate-on-scroll">
+                    <div class="card-icon-wrapper">
+                        <svg viewBox="0 0 24 24" class="card-icon" fill="currentColor">
+                            <path d="M12 3v10.55A4 4 0 1014 17V7h4V3h-6zM8 17a2 2 0 11-2-2 2 2 0 012 2z"/>
+                        </svg>
+                    </div>
+                    <h3 lang="ar">الصوتيات والإضاءة والمسارح</h3>
+                    <h3 lang="en">Sound, Lights & Stages</h3>
+                    <p lang="ar">تركيب مسارح مجهزة بالكامل، شاشات عرض LED، أنظمة إضاءة احترافية، ومكبرات صوت متطورة لكافة الفعاليات.</p>
+                    <p lang="en">Custom built stages, high-resolution LED screens, intelligent theatrical lighting, and crystal-clear PA sound systems.</p>
+                </div>
+
+                <!-- Card 5: Power Generators -->
+                <div class="service-card animate-on-scroll">
+                    <div class="card-icon-wrapper">
+                        <svg viewBox="0 0 24 24" class="card-icon" fill="currentColor">
+                            <path d="M12 2L2 22h20L12 2zm0 16a1.5 1.5 0 111.5-1.5A1.5 1.5 0 0112 18zm1-5h-2V8h2v5z"/>
+                        </svg>
+                    </div>
+                    <h3 lang="ar">المولدات ولوحات التوزيع</h3>
+                    <h3 lang="en">Power & Generators</h3>
+                    <p lang="ar">توفير مولدات كهربائية صامتة بمختلف الطاقات مع الكابلات ولوحات التوزيع لتأمين طاقة مستمرة دون انقطاع.</p>
+                    <p lang="en">Silent mobile diesel generators in various capacities, complete with high-voltage cabling and distribution panels.</p>
+                </div>
+
+                <!-- Card 6: Crowd Management -->
+                <div class="service-card animate-on-scroll">
+                    <div class="card-icon-wrapper">
+                        <svg viewBox="0 0 24 24" class="card-icon" fill="currentColor">
+                            <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5s-3 1.34-3 3 1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/>
+                        </svg>
+                    </div>
+                    <h3 lang="ar">تنظيم الفعاليات وإدارة الحشود</h3>
+                    <h3 lang="en">Crowd Management</h3>
+                    <p lang="ar">تخطيط وتشغيل حركة الدخول والخروج، توفير حواجز أمنية وتنظيمية، وتشغيل صالات المعارض والفعاليات بكوادر مؤهلة.</p>
+                    <p lang="en">Expert flow routing, site layouts, queue barrier rentals, and experienced operations crew for security and hospitality.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery Section -->
+    <section id="portfolio" class="section-padding">
+        <div class="container text-center">
+            <span class="section-subtitle" lang="ar">معرض أعمالنا</span>
+            <span class="section-subtitle" lang="en">Our Projects</span>
+            
+            <h2 lang="ar">من مشاريعنا المنفذة بالمنطقة الشرقية</h2>
+            <h2 lang="en">Proud Installations in Eastern Province</h2>
+            
+            <!-- Category Filter Buttons -->
+            <div class="gallery-filters" id="gallery-filter-container">
+                <button class="filter-btn active" data-filter="all">
+                    <span lang="ar">الكل</span><span lang="en">All</span>
+                </button>
+                <button class="filter-btn" data-filter="luxury">
+                    <span lang="ar">حفلات ومناسبات</span><span lang="en">Events & Weddings</span>
+                </button>
+                <button class="filter-btn" data-filter="expo">
+                    <span lang="ar">معارض ومؤتمرات</span><span lang="en">Expos & Conferences</span>
+                </button>
+                <button class="filter-btn" data-filter="traditional">
+                    <span lang="ar">خيام شعبية وتراثية</span><span lang="en">Traditional Majlis</span>
+                </button>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="gallery-grid" id="gallery-grid-items">
+                <!-- Item 1 -->
+                <div class="gallery-item show-item" data-category="luxury">
+                    <img src="assets/WhatsApp-Image-2025-08-31-at-12.12.18-AM.jpeg" alt="Luxury Event Setup">
+                    <div class="gallery-hover-overlay">
+                        <div class="overlay-info">
+                            <h4 lang="ar">تجهيز حفلات فاخر</h4>
+                            <h4 lang="en">Grand Luxury Event Setup</h4>
+                            <p lang="ar">الدمام - تجهيز داخلي فاخر بالكامل</p>
+                            <p lang="en">Dammam - Complete luxury interior drape</p>
+                            <button class="zoom-btn" aria-label="Zoom image">🔍</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="gallery-item show-item" data-category="expo">
+                    <img src="assets/WhatsApp-Image-2025-08-31-at-12.12.17-AM-1.jpeg" alt="Exhibition Marquee">
+                    <div class="gallery-hover-overlay">
+                        <div class="overlay-info">
+                            <h4 lang="ar">خيمة معارض ومؤتمرات</h4>
+                            <h4 lang="en">Corporate Expo Marquee</h4>
+                            <p lang="ar">الظهران - خيمة أوروبية مقاومة للظروف الجوية</p>
+                            <p lang="en">Dhahran - European weatherproof structure</p>
+                            <button class="zoom-btn" aria-label="Zoom image">🔍</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="gallery-item show-item" data-category="traditional">
+                    <img src="assets/WhatsApp-Image-2024-12-21-at-2.35.38-PM-1.jpeg" alt="Traditional Majlis">
+                    <div class="gallery-hover-overlay">
+                        <div class="overlay-info">
+                            <h4 lang="ar">مجلس تراثي ملكي</h4>
+                            <h4 lang="en">Traditional Royal Majlis</h4>
+                            <p lang="ar">الخبر - بيت شعر فاخر مع جلسات السدو</p>
+                            <p lang="en">Khobar - Premium Sadu floor cushions</p>
+                            <button class="zoom-btn" aria-label="Zoom image">🔍</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="gallery-item show-item" data-category="luxury">
+                    <img src="assets/WhatsApp-Image-2024-12-21-at-2.35.37-PM-1.jpeg" alt="Event Night Marquee">
+                    <div class="gallery-hover-overlay">
+                        <div class="overlay-info">
+                            <h4 lang="ar">خيمة فاخرة مع إضاءة</h4>
+                            <h4 lang="en">Premium Lit Event Marquee</h4>
+                            <p lang="ar">الجبيل - إضاءة LED وديكور ذهبي</p>
+                            <p lang="en">Jubail - LED lighting & gold decor</p>
+                            <button class="zoom-btn" aria-label="Zoom image">🔍</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="gallery-item show-item" data-category="expo">
+                    <img src="assets/WhatsApp-Image-2025-08-31-at-12.12.16-AM.jpeg" alt="Expo Structure">
+                    <div class="gallery-hover-overlay">
+                        <div class="overlay-info">
+                            <h4 lang="ar">قاعة مؤتمرات واجتماعات</h4>
+                            <h4 lang="en">Conference & Meeting Hall</h4>
+                            <p lang="ar">الدمام - خيمة مجهزة بالكامل للمؤتمرات</p>
+                            <p lang="en">Dammam - Fully equipped conference tent</p>
+                            <button class="zoom-btn" aria-label="Zoom image">🔍</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="gallery-item show-item" data-category="traditional">
+                    <img src="assets/WhatsApp-Image-2024-12-21-at-2.35.36-PM-1.jpeg" alt="Traditional Majlis Seating">
+                    <div class="gallery-hover-overlay">
+                        <div class="overlay-info">
+                            <h4 lang="ar">جلسة شعبية تراثية</h4>
+                            <h4 lang="en">Heritage Majlis Floor Seating</h4>
+                            <p lang="ar">الخبر - جلسات شعبية بسجاد فاخر</p>
+                            <p lang="en">Khobar - Premium floor cushion setup</p>
+                            <button class="zoom-btn" aria-label="Zoom image">🔍</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 7 -->
+                <div class="gallery-item show-item" data-category="luxury">
+                    <img src="assets/WhatsApp-Image-2024-12-21-at-2.35.36-PM-2.jpeg" alt="Event Stage Setup">
+                    <div class="gallery-hover-overlay">
+                        <div class="overlay-info">
+                            <h4 lang="ar">مسرح وحفل موسيقي</h4>
+                            <h4 lang="en">Stage & Concert Setup</h4>
+                            <p lang="ar">الدمام - تجهيز مسرح بالكامل داخل الخيمة</p>
+                            <p lang="en">Dammam - Full stage rig inside marquee</p>
+                            <button class="zoom-btn" aria-label="Zoom image">🔍</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 8 -->
+                <div class="gallery-item show-item" data-category="expo">
+                    <img src="assets/WhatsApp-Image-2024-12-21-at-2.35.37-PM-2.jpeg" alt="Outdoor Expo">
+                    <div class="gallery-hover-overlay">
+                        <div class="overlay-info">
+                            <h4 lang="ar">خيمة معرض خارجية</h4>
+                            <h4 lang="en">Outdoor Exhibition Marquee</h4>
+                            <p lang="ar">الظهران - معرض خارجي بالخيام الأوروبية</p>
+                            <p lang="en">Dhahran - Outdoor expo European tent setup</p>
+                            <button class="zoom-btn" aria-label="Zoom image">🔍</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox Modal for Gallery Zoom -->
+    <div id="gallery-lightbox" class="lightbox-modal">
+        <span class="lightbox-close" id="lightbox-close-btn">&times;</span>
+        <img class="lightbox-img" id="lightbox-image-target" src="" alt="Zoomed view">
+        <div class="lightbox-caption" id="lightbox-caption-target"></div>
+    </div>
+
+    <!-- Interactive Estimator Section (WOW Feature) -->
+    <section id="estimator" class="section-padding bg-gradient-dark">
+        <div class="container">
+            <div class="text-center estimator-header-wrapper">
+                <span class="section-subtitle gold-text" lang="ar">احسب مساحتك وتكلفتك</span>
+                <span class="section-subtitle gold-text" lang="en">Estimate Your Space & Price</span>
+                
+                <h2 lang="ar">حاسبة الفعاليات الذكية للخيام والتجهيز</h2>
+                <h2 lang="en">Smart Event & Tent Estimator</h2>
+                
+                <p class="section-description" lang="ar">اختر نوع الفعالية وعدد الحضور، وحدد المستلزمات الإضافية للحصول فوراً على المساحة المقترحة والتقديرات وإرسال الطلب للواتساب.</p>
+                <p class="section-description" lang="en">Choose your event details, size, and add-ons to dynamically calculate structural requirements and send configuration directly to our Whatsapp.</p>
+            </div>
+
+            <!-- Interactive App Wrapper -->
+            <div class="estimator-box">
+                <!-- Navigation Tabs -->
+                <div class="estimator-steps">
+                    <div class="step-tab active" data-step="1">
+                        <span class="step-num">1</span>
+                        <span class="step-label" lang="ar">الفعالية والعدد</span>
+                        <span class="step-label" lang="en">Event & Size</span>
+                    </div>
+                    <div class="step-tab" data-step="2">
+                        <span class="step-num">2</span>
+                        <span class="step-label" lang="ar">الخيمة والتجهيزات</span>
+                        <span class="step-label" lang="en">Tent & Extras</span>
+                    </div>
+                    <div class="step-tab" data-step="3">
+                        <span class="step-num">3</span>
+                        <span class="step-label" lang="ar">عرض السعر والطلب</span>
+                        <span class="step-label" lang="en">Summary & Send</span>
+                    </div>
+                </div>
+
+                <!-- Tab Content 1: Size & Event Type -->
+                <div class="step-content active" id="step-content-1">
+                    <h3 lang="ar">حدد تفاصيل فعاليتك</h3>
+                    <h3 lang="en">Enter Your Event Parameters</h3>
+                    
+                    <div class="form-group-grid">
+                        <div class="form-group-item">
+                            <label lang="ar">نوع المناسبة:</label>
+                            <label lang="en">Event Type:</label>
+                            <select id="est-event-type" class="custom-select">
+                                <option value="wedding" selected lang="ar">حفل زواج أو خطوبة</option>
+                                <option value="wedding" lang="en">Wedding or Engagement</option>
+                                <option value="expo" lang="ar">معرض تجاري أو مؤتمر</option>
+                                <option value="expo" lang="en">Commercial Expo / Conference</option>
+                                <option value="gathering" lang="ar">اجتماع عائلي / جلسة شعبية</option>
+                                <option value="gathering" lang="en">Family Gathering / Majlis</option>
+                                <option value="corporate" lang="ar">حفل شركات أو مناسبة خاصة</option>
+                                <option value="corporate" lang="en">Corporate Event / Ceremony</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group-item">
+                            <label lang="ar">طريقة جلوس الضيوف:</label>
+                            <label lang="en">Seating Arrangement:</label>
+                            <select id="est-seating-type" class="custom-select">
+                                <option value="banquet" selected lang="ar">طاولات عشاء دائرية (جلسات طعام)</option>
+                                <option value="banquet" lang="en">Banquet Tables (Dining)</option>
+                                <option value="theater" lang="ar">صفوف كراسي متتالية (مسرح / محاضرة)</option>
+                                <option value="theater" lang="en">Theater Rows (Lecture / Stage)</option>
+                                <option value="traditional" lang="ar">جلسات أرضية شعبية (سجاد ومساند)</option>
+                                <option value="traditional" lang="en">Traditional Floor Seating (Majlis)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- Slider Guest Count -->
+                    <div class="guest-slider-container">
+                        <div class="slider-label-row">
+                            <span lang="ar">عدد الضيوف المتوقع:</span>
+                            <span lang="en">Expected Guest Count:</span>
+                            <span class="slider-value-badge"><span id="guest-count-val">150</span> <span lang="ar">شخص</span><span lang="en">Guests</span></span>
+                        </div>
+                        <input type="range" id="est-guests" min="20" max="1000" step="10" value="150" class="custom-range-slider">
+                        <div class="slider-ticks">
+                            <span>20</span>
+                            <span>250</span>
+                            <span>500</span>
+                            <span>750</span>
+                            <span>1000+</span>
+                        </div>
+                    </div>
+
+                    <div class="step-footer">
+                        <button class="btn btn-primary next-step-btn" data-next="2">
+                            <span lang="ar">الخطوة التالية ➔</span>
+                            <span lang="en">Next Step ➔</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Tab Content 2: Tent Type & Addons -->
+                <div class="step-content" id="step-content-2">
+                    <h3 lang="ar">اختر نوع الخيمة والمستلزمات</h3>
+                    <h3 lang="en">Select Tent Type & Service Add-ons</h3>
+                    
+                    <h4 class="sub-label-heading" lang="ar">نوع الخيمة المفضلة:</h4>
+                    <h4 class="sub-label-heading" lang="en">Preferred Tent Style:</h4>
+                    <div class="tent-type-selector">
+                        <label class="tent-option active">
+                            <input type="radio" name="est-tent-type" value="pvc" checked>
+                            <span class="option-card">
+                                <span class="card-title" lang="ar">🎪 خيمة أوروبية بي في سي</span>
+                                <span class="card-title" lang="en">🎪 European PVC Marquee</span>
+                                <span class="card-desc" lang="ar">عازلة للماء والشمس، خيار كلاسيكي متين</span>
+                                <span class="card-desc" lang="en">Waterproof, light block, sturdy classic</span>
+                            </span>
+                        </label>
+
+                        <label class="tent-option">
+                            <input type="radio" name="est-tent-type" value="glass">
+                            <span class="option-card">
+                                <span class="card-title" lang="ar">🏢 خيمة زجاجية فاخرة</span>
+                                <span class="card-title" lang="en">🏢 Premium Glass Pavilion</span>
+                                <span class="card-desc" lang="ar">جدران زجاجية تمنح إطلالة فاخرة وعصرية</span>
+                                <span class="card-desc" lang="en">Glass walls offering modern high-end looks</span>
+                            </span>
+                        </label>
+
+                        <label class="tent-option">
+                            <input type="radio" name="est-tent-type" value="traditional">
+                            <span class="option-card">
+                                <span class="card-title" lang="ar">⛺ بيت شعر / خيمة تراثية</span>
+                                <span class="card-title" lang="en">⛺ Traditional Majlis Tent</span>
+                                <span class="card-desc" lang="ar">تصميم عربي أصيل مع لمسات تراثية دافئة</span>
+                                <span class="card-desc" lang="en">Authentic Arabic design with sadu fabrics</span>
+                            </span>
+                        </label>
+                    </div>
+
+                    <h4 class="sub-label-heading" lang="ar">الخدمات والمستلزمات الإضافية:</h4>
+                    <h4 class="sub-label-heading" lang="en">Optional Custom Equipment:</h4>
+                    <div class="addons-grid">
+                        <label class="addon-checkbox-label">
+                            <input type="checkbox" id="add-ac" checked>
+                            <span class="checkbox-box"></span>
+                            <span class="addon-text">
+                                <span lang="ar">❄️ تكييف هواء فريون دولابي</span>
+                                <span lang="en">❄️ Package AC & Cooling Units</span>
+                            </span>
+                        </label>
+
+                        <label class="addon-checkbox-label">
+                            <input type="checkbox" id="add-stage">
+                            <span class="checkbox-box"></span>
+                            <span class="addon-text">
+                                <span lang="ar">🎭 مسرح وشاشات LED وأنظمة صوت</span>
+                                <span lang="en">🎭 Stage, LED Screens & Sound</span>
+                            </span>
+                        </label>
+
+                        <label class="addon-checkbox-label">
+                            <input type="checkbox" id="add-furniture" checked>
+                            <span class="checkbox-box"></span>
+                            <span class="addon-text">
+                                <span lang="ar">🪑 أثاث فاخر (طاولات، كراسي، كنب)</span>
+                                <span lang="en">🪑 Luxury Chairs & Dinner Tables</span>
+                            </span>
+                        </label>
+
+                        <label class="addon-checkbox-label">
+                            <input type="checkbox" id="add-gen">
+                            <span class="checkbox-box"></span>
+                            <span class="addon-text">
+                                <span lang="ar">⚡ مولد كهربائي صامت مع لوحة توزيع</span>
+                                <span lang="en">⚡ Silent Diesel Power Generator</span>
+                            </span>
+                        </label>
+
+                        <label class="addon-checkbox-label">
+                            <input type="checkbox" id="add-coffee">
+                            <span class="checkbox-box"></span>
+                            <span class="addon-text">
+                                <span lang="ar">☕ خدمات الضيافة العربية (القهوة والشاي)</span>
+                                <span lang="en">☕ Arabian Coffee/Tea Hospitality Service</span>
+                            </span>
+                        </label>
+
+                        <label class="addon-checkbox-label">
+                            <input type="checkbox" id="add-crowd">
+                            <span class="checkbox-box"></span>
+                            <span class="addon-text">
+                                <span lang="ar">🚶 إدارة الحشود وبوابات وحواجز الدخول</span>
+                                <span lang="en">🚶 Crowd Control Barriers & Crew</span>
+                            </span>
+                        </label>
+                    </div>
+
+                    <div class="step-footer">
+                        <button class="btn btn-secondary prev-step-btn" data-prev="1">
+                            <span lang="ar">السابق ➔</span>
+                            <span lang="en">Prev ➔</span>
+                        </button>
+                        <button class="btn btn-primary next-step-btn" id="calculate-trigger-btn" data-next="3">
+                            <span lang="ar">احسب النتيجة ➔</span>
+                            <span lang="en">Show Calculations ➔</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Tab Content 3: Result Summary & WhatsApp CTA -->
+                <div class="step-content" id="step-content-3">
+                    <h3 lang="ar">التقرير الفني والمساحة المقترحة للفعالية</h3>
+                    <h3 lang="en">Technical Space Recommendation & Summary</h3>
+
+                    <div class="result-layout-wrapper">
+                        <!-- Recommendation Info -->
+                        <div class="result-details">
+                            <div class="result-info-box">
+                                <span lang="ar" class="info-tag">المقاس المقترح للخيام:</span>
+                                <span lang="en" class="info-tag">Recommended Tent Size:</span>
+                                <div class="suggested-dims" id="est-suggested-size">15م × 20م</div>
+                                <p lang="ar" class="sub-detail-text">مساحة إجمالية تقارب <strong id="est-suggested-area">300</strong> متر مربع لتوفير تهوية وجلسة مريحة للضيوف.</p>
+                                <p lang="en" class="sub-detail-text">Total area of <strong id="est-suggested-area-en">300</strong> sq. meters to accommodate dining and stage safely.</p>
+                            </div>
+
+                            <div class="quote-checklist">
+                                <h4 lang="ar">قائمة التجهيزات والملخص:</h4>
+                                <h4 lang="en">Itemized Inclusions Summary:</h4>
+                                <ul class="checklist-items" id="est-inclusions-list">
+                                    <!-- Dynamic elements from script.js -->
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Cost/Action Widget -->
+                        <div class="result-action-card">
+                            <div class="quote-badge">
+                                <span class="badge-title" lang="ar">تقدير درجة التجهيز</span>
+                                <span class="badge-title" lang="en">Premium Level Selection</span>
+                                <div class="quote-price" lang="ar">تجهيز احترافي</div>
+                                <div class="quote-price" lang="en">Professional Setup</div>
+                                <p lang="ar">تقدير مساحة مطابق لشروط الدفاع المدني السعودي.</p>
+                                <p lang="en">Sizing layouts fully comply with Saudi Civil Defense regulations.</p>
+                            </div>
+
+                            <button class="btn btn-whatsapp-large" id="est-whatsapp-send-btn">
+                                <span class="whatsapp-icon">💬</span>
+                                <span lang="ar">إرسال الطلب وحجز موعد عبر الواتساب</span>
+                                <span lang="en">Send Inquiry via WhatsApp</span>
+                            </button>
+                            <p class="disclaimer-text" lang="ar">* سنقوم بالتواصل معك لتأكيد التواريخ والأسعار وتدقيق المخططات الفنية الميدانية.</p>
+                            <p class="disclaimer-text" lang="en">* Our engineers will verify site accessibility, schedules, and finalize pricing.</p>
+                        </div>
+                    </div>
+
+                    <div class="step-footer">
+                        <button class="btn btn-secondary prev-step-btn" data-prev="2">
+                            <span lang="ar">تعديل الخيارات ➔</span>
+                            <span lang="en">Modify Selections ➔</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-padding bg-light">
+        <div class="container text-center">
+            <span class="section-subtitle" lang="ar">آراء عملائنا</span>
+            <span class="section-subtitle" lang="en">Client Testimonials</span>
+            
+            <h2 lang="ar">ماذا يقولون عن خدمات خيام اليمامة؟</h2>
+            <h2 lang="en">Feedback from Our Premium Clients</h2>
+            
+            <div class="testimonials-slider" id="testimonial-slider-container">
+                <!-- Slide 1 -->
+                <div class="testimonial-card active">
+                    <div class="quote-icon">“</div>
+                    <p lang="ar">تعاملنا مع خيام اليمامة في تجهيز خيمة معرض تجاري كبير بالدمام، الالتزام بالوقت والمواعيد كان ممتازاً، والتكييف كان قوياً جداً ومناسباً لحرارة الصيف الشديدة. نشكرهم على الاحترافية.</p>
+                    <p lang="en">We rented a commercial expo tent from Al Yamama in Dammam. The punctuality was perfect. The air conditioning cooling power was immense, managing the summer heat effortlessly. Professional job!</p>
+                    <div class="client-info">
+                        <h4>أ. محمد الدوسري</h4>
+                        <span lang="ar">مدير مشاريع فعاليات بالشرقية</span>
+                        <span lang="en">Event Projects Director, EP</span>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="testimonial-card">
+                    <div class="quote-icon">“</div>
+                    <p lang="ar">تم تركيب خيمة مناسبة عائلية (زواج) في ساحة فيلتنا بالخبر، التنسيق الداخلي والستائر البيضاء والكنب والفرش كانت بغاية الروعة والفخامة وكأنها قاعة أفراح حقيقية. تجربة ممتازة جداً.</p>
+                    <p lang="en">They set up a family wedding tent in our villa backyard in Khobar. The inner drapes, white fabrics, gold chairs, and flooring were absolutely stunning, like a five-star hotel ballroom.</p>
+                    <div class="client-info">
+                        <h4>عائلة الخالدي</h4>
+                        <span lang="ar">الخبر، المنطقة الشرقية</span>
+                        <span lang="en">Khobar, Eastern Province</span>
+                    </div>
+                </div>
+                
+                <!-- Slide Dots -->
+                <div class="slider-dots">
+                    <span class="dot active" data-index="0"></span>
+                    <span class="dot" data-index="1"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="grid grid-2">
+                <!-- Left: Contact Details & Form -->
+                <div class="contact-form-wrapper">
+                    <span class="section-subtitle" lang="ar">تواصل مباشر</span>
+                    <span class="section-subtitle" lang="en">Direct Inquiry</span>
+                    
+                    <h2 lang="ar">طلب معاينة وتفاصيل عرض السعر</h2>
+                    <h2 lang="en">Request Site Visit & Custom Layouts</h2>
+                    
+                    <p lang="ar" class="contact-intro">املأ النموذج أدناه وسيقوم مهندسو المبيعات لدينا بالاتصال بك وتحديد موعد لمعاينة موقع الفعالية مجاناً بالدمام والخبر والقطيف.</p>
+                    <p lang="en" class="contact-intro">Complete the inquiry form and our field engineers will contact you to schedule a free site mapping visit within the Dammam metro region.</p>
+                    
+                    <!-- Contact Form -->
+                    <form id="main-contact-form" class="custom-form">
+                        <div class="form-row">
+                            <div class="form-group floating-group">
+                                <input type="text" id="contact-name" required placeholder=" " class="form-input">
+                                <label for="contact-name" lang="ar">الاسم الكريم *</label>
+                                <label for="contact-name" lang="en">Full Name *</label>
+                            </div>
+                            
+                            <div class="form-group floating-group">
+                                <input type="tel" id="contact-phone" required placeholder=" " class="form-input">
+                                <label for="contact-phone" lang="ar">رقم الجوال (الواتساب) *</label>
+                                <label for="contact-phone" lang="en">Mobile / WhatsApp *</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group floating-group">
+                            <input type="email" id="contact-email" placeholder=" " class="form-input">
+                            <label for="contact-email" lang="ar">البريد الإلكتروني (اختياري)</label>
+                            <label for="contact-email" lang="en">Email Address (Optional)</label>
+                        </div>
+
+                        <div class="form-group floating-group">
+                            <textarea id="contact-msg" required placeholder=" " class="form-textarea" rows="4"></textarea>
+                            <label for="contact-msg" lang="ar">اكتب تفاصيل فعاليتك والمقاسات المطلوبة هنا...</label>
+                            <label for="contact-msg" lang="en">Detail your event schedules, sizing, or special setup requirements...</label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span lang="ar">إرسال الطلب الآن ✉</span>
+                            <span lang="en">Submit Inquiry ✉</span>
+                        </button>
+                    </form>
+
+                    <!-- Success Modal PopUp -->
+                    <div id="success-toast" class="toast-popup">
+                        <div class="toast-content">
+                            <span class="success-icon">✓</span>
+                            <div class="toast-text">
+                                <h4 lang="ar">تم الإرسال بنجاح!</h4>
+                                <h4 lang="en">Sent Successfully!</h4>
+                                <p lang="ar">سيتواصل معك فريق المبيعات خلال 15 دقيقة.</p>
+                                <p lang="en">Our sales team will call you within 15 minutes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right: Location Map & Info Card -->
+                <div class="contact-info-card">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1787.248185891264!2d50.0465539!3d26.3751467!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49e30074dabb0f%3A0x5ad80ce80acbdfff!2z2YXZiNiz2LPZhyDYrtmK2KfZhSDYp9mE2YrZhdin2YXZhyDZhNmE2K3ZgdmE2KfYqiDZiNin2YTZhdmG2KfYs9io2KfYqg!5e0!3m2!1sen!2seg!4v1721282412605!5m2!1sen!2seg" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                    <div class="info-block">
+                        <h4 lang="ar">📍 المقر الرئيسي:</h4>
+                        <h4 lang="en">📍 Head Office:</h4>
+                        <p lang="ar">المملكة العربية السعودية، الدمام، حي غرناطة، شارع الأمير نايف بن عبدالعزيز.</p>
+                        <p lang="en">Prince Naif Bin Abdulaziz Street, Granada District, Dammam, Saudi Arabia.</p>
+                    </div>
+
+                    <div class="info-links-grid">
+                        <div class="info-link-item">
+                            <span class="icon">📞</span>
+                            <div>
+                                <span lang="ar">الهاتف الموحد</span><span lang="en">Office Line</span>
+                                <strong>0138158666</strong>
+                            </div>
+                        </div>
+                        <div class="info-link-item">
+                            <span class="icon">📱</span>
+                            <div>
+                                <span lang="ar">مسؤول المبيعات</span><span lang="en">Mobile Hotline</span>
+                                <strong>0557308666</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send?phone=966557308666" class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
+        <span class="whatsapp-tooltip" lang="ar">تحدث معنا مباشرة</span>
+        <span class="whatsapp-tooltip" lang="en">Chat Live with Us</span>
+        <svg viewBox="0 0 24 24" class="whatsapp-svg-icon" fill="currentColor">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.188 1.449 4.825 1.451 5.436 0 9.859-4.407 9.862-9.843.002-2.632-1.022-5.105-2.883-6.97C16.59 1.936 14.12 1.01 11.487 1.01c-5.443 0-9.866 4.41-9.869 9.846-.001 1.77.464 3.498 1.348 5.03l-.999 3.648 3.73-.978-.142-.252zm12.036-7.854c-.302-.151-1.787-.882-2.063-.982-.277-.1-.478-.151-.68.151-.202.302-.782.982-.958 1.183-.176.202-.352.227-.655.076-.302-.151-1.276-.47-2.43-1.499-.899-.801-1.505-1.792-1.681-2.094-.176-.302-.019-.465.132-.615.136-.135.302-.352.453-.529.151-.176.201-.302.302-.503.101-.202.05-.377-.025-.529-.075-.151-.68-1.637-.932-2.242-.246-.59-.496-.51-.68-.52l-.58-.01c-.201 0-.528.075-.805.377-.277.302-1.057 1.032-1.057 2.518 0 1.485 1.082 2.922 1.233 3.123.151.202 2.13 3.253 5.16 4.561.72.311 1.282.497 1.719.637.724.23 1.383.197 1.903.12.58-.087 1.787-.73 2.039-1.435.252-.705.252-1.309.176-1.435-.075-.12-.277-.202-.579-.352z"/>
+        </svg>
+    </a>
+
+    <!-- Footer Section -->
+    <footer id="main-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Col 1: About -->
+                    <div class="footer-col brand-col">
+                        <a href="#" class="logo">
+                            <span class="gold-accent">▲</span>
+                            <span lang="ar">خيام اليمامة</span>
+                            <span lang="en">Al Yamama</span>
+                        </a>
+                        <p lang="ar">مؤسسة سعودية متخصصة في تأجير خيام المناسبات الأوروبية والزجاجية الفاخرة وتجهيز المعارض والمؤتمرات بأحدث التقنيات في المنطقة الشرقية.</p>
+                        <p lang="en">A premier Saudi company specializing in renting luxury European & glass tents, and setting up events with state-of-the-art systems in Dammam.</p>
+                        
+                        <!-- Social Media Links -->
+                        <ul class="footer-socials">
+                            <li><a href="https://api.whatsapp.com/send?phone=966557308666" target="_blank" aria-label="WhatsApp">WhatsApp</a></li>
+                            <li><a href="https://www.facebook.com/profile.php?id=100014933920019" target="_blank" aria-label="Facebook">Facebook</a></li>
+                            <li><a href="https://youtube.com/@alyamama_tents3866" target="_blank" aria-label="YouTube">YouTube</a></li>
+                            <li><a href="https://instagram.com/alyamamatents15804" target="_blank" aria-label="Instagram">Instagram</a></li>
+                            <li><a href="https://www.tiktok.com/@alyamamatents" target="_blank" aria-label="TikTok">TikTok</a></li>
+                            <li><a href="https://haraj.com.sa/11123535914" target="_blank" aria-label="Haraj">حراج</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 2: Navigation -->
+                    <div class="footer-col links-col">
+                        <h4 lang="ar">روابط سريعة</h4>
+                        <h4 lang="en">Quick Links</h4>
+                        <ul>
+                            <li><a href="#hero"><span lang="ar">الرئيسية</span><span lang="en">Home</span></a></li>
+                            <li><a href="#about"><span lang="ar">من نحن</span><span lang="en">About Us</span></a></li>
+                            <li><a href="#services"><span lang="ar">خدمات التجهيز</span><span lang="en">Our Services</span></a></li>
+                            <li><a href="#portfolio"><span lang="ar">مشاريعنا السابقة</span><span lang="en">Our Portfolio</span></a></li>
+                            <li><a href="#estimator"><span lang="ar">حاسبة الخيام</span><span lang="en">Tent Estimator</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 3: Services Shortlist -->
+                    <div class="footer-col services-col">
+                        <h4 lang="ar">أقسام الخيام</h4>
+                        <h4 lang="en">Tent Categories</h4>
+                        <ul>
+                            <li><a href="#services"><span lang="ar">خيام أوروبية PVC</span><span lang="en">European PVC Tents</span></a></li>
+                            <li><a href="#services"><span lang="ar">الخيام الزجاجية</span><span lang="en">Glass Marquees</span></a></li>
+                            <li><a href="#services"><span lang="ar">بيت شعر ومجالس تراثية</span><span lang="en">Traditional Hair Tents</span></a></li>
+                            <li><a href="#services"><span lang="ar">خيام المؤتمرات والمعارض</span><span lang="en">Conference & Expo Tents</span></a></li>
+                            <li><a href="#services"><span lang="ar">جلسات رمضانية وشعبية</span><span lang="en">Ramadan & Event Seating</span></a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Col 4: Contacts -->
+                    <div class="footer-col contact-col">
+                        <h4 lang="ar">معلومات التواصل</h4>
+                        <h4 lang="en">Contact Details</h4>
+                        <p>
+                            <strong><span lang="ar">الجوال:</span><span lang="en">Mob:</span></strong> 0557308666<br>
+                            <strong><span lang="ar">الهاتف:</span><span lang="en">Tel:</span></strong> 0138158666<br>
+                            <strong><span lang="ar">واتساب:</span><span lang="en">WhatsApp:</span></strong> 00966557308666<br>
+                            <strong><span lang="ar">البريد:</span><span lang="en">Email:</span></strong> info@alyamamatents.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; 2026 <span lang="ar">جميع الحقوق محفوظة لمؤسسة خيام اليمامة للخيام والحفلات.</span><span lang="en">All rights reserved to Al Yamama Tents.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top button -->
+    <a href="#" id="back-to-top" aria-label="Scroll to top">▲</a>
+
+    <!-- JavaScript Controller -->
+    <script src="script.js?v=3"></script>
+</body>
+</html>
